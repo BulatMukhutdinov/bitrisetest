@@ -17,7 +17,7 @@ class MainActivityTest {
 
     @Test
     fun simpleTest() {
-        onView(withText("Hello World!"))
+        onView(withText("Hello Nevercode!"))
             .check(matches(isDisplayed()))
     }
 }
